@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+pre {
+  border: thin solid gainsboro;
+  border-radius: 1em;
+  background-color: ghostwhite;
+  margin: 1em;
+  padding: 1em;
+  color: rgb(44, 44, 44);
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.stat-container {
+  display: flex;
+  align-items: center;
+}
+
+.stat-name {
+  margin-right: 10px;
+}
+
+.barhp {
+  width: 100px;
+  height: 10px;
+  background-color: red;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.baratk {
+  width: 100px;
+  height: 10px;
+  background-color: orange;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.bardef {
+  width: 100px;
+  height: 10px;
+  background-color: yellow;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.barspatk {
+  width: 100px;
+  height: 10px;
+  background-color: green;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.barspdef {
+  width: 100px;
+  height: 10px;
+  background-color: blue;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.barvel {
+  width: 100px;
+  height: 10px;
+  background-color: purple;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+body {
+  background-color: #ffcb05;
+  font-family: "Press Start 2P", cursive;
+}
+h1 {
+  font-size: 3rem;
+  color: #000000;
+  text-shadow: 2px 2px 0px rgb(255, 255, 255);
+  background-color: #ffcb05;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid #000000;
+  box-shadow: 5px 5px 10px #000000;
+}
+
+.general {
+  background-color: #ffcb05;
+}
+.formu {
+  background-color: #000000;
+  color: #ffcb05;
+}
+
+#pkcontainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#pokemon-card .card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+#pokemon-card .card .card-body h2 {
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#pokemon-card .card .list-group-item:first-of-type {
+  margin-bottom: 10px;
+}
+
+#pokemon-card .card .list-group-item span {
+  font-weight: bold;
+}
+
+#pokemon-card .card .list-group-item span + span {
+  margin-left: 5px;
+}
+
+#pokemon-card .card .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+#pokemon-card .card .list-group-item .stat-container {
+  margin-top: 5px;
+}
+
+#pokemon-card .card .card-body .fs-3 {
+  color: red;
+}
+
+#pokemon-card .card .card-body .btn {
+  background-color: red;
+  border-color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+}
+
+#pkmfoto {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 30px;
+  margin-top: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.list-group-item {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.card-btn {
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.text-danger {
+  color: #ff0000 !important;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fs-6 {
+  font-size: 18px;
+}
+
+.fs-5 {
+  font-size: 24px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0 15px;
+}
+
+#dropdownMenuButton {
+  background-color: #000000;
+}
+
+.profile-pic {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.info {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #ffcb05;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.fondo-agua {
+  background: linear-gradient(
+    to bottom,
+    #87ceeb 0%,
+    #1e90ff 33%,
+    #0000ff 66%,
+    #00008b 100%
+  );
+}
+.fondo-planta {
+  background: linear-gradient(
+    to bottom,
+    #8bc34a 0%,
+    #388e3c 33%,
+    #006400 66%,
+    #228b22 100%
+  );
+}
+.fondo-fuego {
+  background: linear-gradient(
+    to bottom,
+    #ffa07a 0%,
+    #ff4500 33%,
+    #a52a2a 66%,
+    #8b0000 100%
+  );
+}
+
+.fondo-Kanto{ background: url(../img/fondos/Kanto.png);
+}
+.fondo-johto{background-image: url(../img/fondos/johto.png)
+}
+.fondo-hoenn{background-image: url(../img/fondos/hoenn.png)
+}
+.fondo-sinnoh{background-image: url(../img/fondos/sinnoh.png)
+}
+.fondo-unova{background-image: url(../img/fondos/unova.png)
+}
+.fondo-kalos{background-image: url(../img/fondos/Kalos.png)
+}
+.fondo-alola{background-image: url(../img/fondos/alola.png)
+}
+.fondo-galar{background-image: url(../img/fondos/galar.png)
+}
+.fondo-paldea{background-image: url(../img/fondos/paldea.png)
+}
+.fondo-todos{ background: linear-gradient(to bottom, #2196F3 0%, #4CAF50 25%, #FFEB3B 50%, #FF9800 75%, #F44336 100%);
+}
+
+.centro{
+  text-align: center;
+  margin-bottom: 50px;
+  width: 70%;
+  height: auto;
+  
+}
+
+.fondo{
+  border-radius: 8%;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+}
+
